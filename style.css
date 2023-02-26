@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
+.hero {
+    background: url(assets/Intersect.png) no-repeat;
+    background-position: right top;
+    background-size: contain;
+    background-color: #ffd699;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.vr {
+    height: 30px;
+    width: 2px !important;
+    opacity: 100% !important;
+}
+.active {
+    border-bottom: #f59f1e solid 3px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Vidaloka', serif;
+    font-weight: bold;
+}
+.heading1 {
+    font-size: 6rem;
+}
+.heading2 {
+    font-size: 5rem;
+}
+.heading5 {
+    font-size: 3rem;
+}
+.text-yellow {
+    color: rgb(237, 142, 0);
+}
+.featured {
+    height: 500px;
+}
+.featured img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.carousel-item {
+    height: 500px;
+}
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.overlay {
+    background-color: black;
+    opacity: 70%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.btn-underlined {
+    padding: 3px 10px;
+    border-bottom: #f59f1e 3px solid;
+    text-decoration: none;
+    color: black;
+}
+.cust-border {
+    border-top: 1px solid rgb(146, 146, 146) !important;
+    padding-top: 1em;
+    border-bottom: 1px solid rgb(146, 146, 146) !important;
+    padding-bottom: 1em;
+}
+.hex-nums {
+    background-image: url(assets/Hexagon.png);
+    background-size:contain;
+    padding: 20px;
+    text-align: center;
+}
+input[type="email"] {
+    width: 20rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+input[type="button"] {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-top: 2rem;
+}
+input[type="email"]::placeholder {
+    text-align: center;
+}
+.form-cls {
+    padding-top: 2rem;
+}
+footer {
+    background-color: black;
+    color: rgb(173, 173, 173);
+}
+a {
+    color: white !important;
+    text-decoration: none !important;
+    transition: all 0.3s;
+}
+a:hover {
+    scale: 1.2;
+}
+i {
+    scale: 2;
+}
+footer .row {
+    padding: 2rem 0rem 2rem 0rem;
+}
